@@ -15,7 +15,7 @@ public class MainActivity2 extends AppCompatActivity {
         Intent i = getIntent();
         String s = i.getStringExtra("personal");
         TextView tv =findViewById(R.id.msg);
-        tv.setText("hello "+s+" !");
+        tv.setText("hello "+s+" !");//
 
 
 
